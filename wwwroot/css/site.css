@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#tradingview_46a6b {
+    position: fixed;
+    left: 50px;
+    top: 200px;
+}
+
+#tradingview_8f902 {
+    position: fixed;
+    left: 650px;
+    top: 200px;
+}
+
+#tradingview_5a497 {
+    position: fixed;
+    right: 50px;
+    top: 200px;
+}
+
+.tradingview-widget-container {
+    display: inline-block;
+}
+
+
+

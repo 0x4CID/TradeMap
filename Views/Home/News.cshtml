@@ -1,0 +1,29 @@
+﻿@model FXNewsListModel
+
+@{
+    ViewData["Title"] = "News";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+<table class="table table-bordered table-responsive table-hover text-light">
+    <tr>
+        <th>Title</th>
+        <th>Country</th>
+        <th>Date</th>
+        <th>Impact</th>
+        <th>Forecast</th>
+        <th>Previous</th>
+    </tr>
+    @foreach (var item in Model.FXNewsList)
+    {
+        <tr>
+            <td>@item.Title</td>
+            <td>@item.Country</td>
+            <td>@item.Date</td>
+            <td>@item.Impact</td>
+            <td>@item.Forecast</td>
+            <td>@item.Previous</td>
+        </tr>
+    }
+</table>
